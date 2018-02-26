@@ -20,13 +20,13 @@
 ############################################################
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
-ops-name-color: '4'
+ops-name-color: 'b'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 nickname-prefix: '~'
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
-max-nick-length: 15
+max-nick-length: 50
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
@@ -278,10 +278,24 @@ kits:
   tools:
     delay: 10
     items:
-      - 272 1
-      - 273 1
-      - 274 1
-      - 275 1
+      - 267 1
+      - 256 1
+      - 257 1
+      - 258 1
+  armors:
+    delay: 10
+    items:
+      - 306 1
+      - 307 1
+      - 308 1
+      - 309 1
+  x50:
+    delay: 10
+    items:
+      - 310 1 protection:50 fire_protection:50 blast_protection:50 projectile_protection:50 respiration:50 aqua_affinity:50 durability:50 name:&f❖■&7&n&l【&b&n&lหมวกเทพ&7&n&l】&f■&f❖
+      - 311 1 protection:50 fire_protection:50 blast_protection:50 projectile_protection:50 thorns:50 durability:50 name:&f❖■&7&n&l【&b&n&lเกราะเทพ&7&n&l】&f■&f❖
+      - 312 1 protection:50 fire_protection:50 blast_protection:50 projectile_protection:50 durability:50 name:&f❖■&7&n&l【&b&n&lกางเกงเทพ&7&n&l】&f■&f❖
+      - 313 1 protection:50 fire_protection:50 blast_protection:50 projectile_protection:50 feather_falling:50 depth_strider:50 durability:50 name:&f❖■&7&n&l【&b&n&lรองเท้าเทพ&7&n&l】&f■&f❖
   dtools:
     delay: 600
     items:
