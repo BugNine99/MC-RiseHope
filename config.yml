@@ -325,24 +325,24 @@ kits:
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
-  #- free
-  #- disposal
-  #- warp
-  #- kit
-  #- mail
-  #- enchant
-  #- gamemode
-  #- heal
-  #- info
-  #- spawnmob
-  #- repair
-  #- time
-  #- weather
+  - color
+  - balance
+  - buy
+  - sell
+  - trade
+  - free
+  - disposal
+  - warp
+  - kit
+  - mail
+  - enchant
+  - gamemode
+  - heal
+  - info
+  - spawnmob
+  - repair
+  - time
+  - weather
 
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
@@ -416,7 +416,7 @@ freeze-afk-players: false
 
 # When the player is AFK, should he be able to pickup items?
 # Enable this, when you don't want people idling in mob traps.
-disable-item-pickup-while-afk: false
+disable-item-pickup-while-afk: true
 
 # This setting controls if a player is marked as active on interaction.
 # When this setting is false, the player would need to manually un-AFK using the /afk command.
@@ -572,9 +572,9 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
-  vip: 5
-  staff: 10
+  default: 1
+  vip: 3
+  staff: 5
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
